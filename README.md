@@ -24,7 +24,7 @@ All files are stored in the `data/` directory.
    Three complementary models are applied to capture different types of irregularities:
 
    - **Isolation Forest:** Detects multivariate anomalies by analysing the joint behaviour of GDP, corporate credit, household credit and total debt.
-   - **STL decomposition:** Identifies deviations within each individual series by analysing residuals after removing trend and seasonality.
+   - **STL decomposition:** Identifies deviations within each series by analysing residuals after removing trend and seasonality.
    - **Prophet:** Detects anomalies in GDP by flagging observations that fall outside the model’s forecast interval.
 
 3. **Comparative Analysis and Visualisation**  
